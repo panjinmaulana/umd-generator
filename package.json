@@ -1,0 +1,22 @@
+{
+  "name": "yup-umd",
+  "version": "0.32.8",
+  "description": "UMD module of the yup.",
+  "mosulw": "dist/suneditor-umd.js",
+  "keywords": [
+    "suneditor"
+  ],
+  "scripts": {
+    "build": "npx webpack-cli build"
+  },
+  "author": "panjinmaulana",
+  "license": "MIT",
+  "dependencies": {
+    "formik": "^2.2.9",
+    "preline": "^2.1.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "yup": "^0.32.11",
+    "suneditor-react" : "^3.6.1"
+  }
+}
